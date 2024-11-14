@@ -10,12 +10,12 @@
 <body>
     <nav>
         <ul>
-        <li><a href="./">Home</a></li>
+            <li><a href="" onclick="window.open('', '_self');">Home</a></li>
         <li>
             <a href="#">Question Categories ▾</a>
             <ul class="dropdown">
                 <li><a href="concurrency.html" onclick="window.open('concurrency.html', '_self');">1 - Concurrency</a></li>
-                <li><a href="#">2 - Mutual Exclusion</a></li>
+                <li><a href="mutualexclusion.html"  onclick="window.open('mutualexclusion.html', '_self');">2 - Mutual Exclusion</a></li>
                 <li><a href="#">3 - Consistency in State/Memory Manipulation</a></li>
                 <li><a href="#">4 - Message Passing</a></li>
             </ul>
@@ -26,10 +26,11 @@
     
     <br>
 
-    <h2>What is the concurrency in parallel and distributed computing?</h2>
+    <h2>Why is concurrency important in distributed systems?</h2>
     <br>
     <p style="font-size: 20px"> Answer:</p>
-    <p style="font-size: 20px">Concurrency is the ability of a system to manage multiple tasks or processes at the same time, even though the tasks may not be running simultaneously. It allows overlapping execution of tasks to improve efficiency and resource utilization.</p>
+    <p style="font-size: 20px">Concurrency is important because it allows distributed systems to handle multiple operations simultaneously, improving performance and system responsiveness, especially when different processes need to coordinate or share resources across multiple nodes.
+    </p>
     <br>
     <p>Learn more:</p>
 </body>
