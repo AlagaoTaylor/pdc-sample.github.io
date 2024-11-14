@@ -59,7 +59,7 @@ background-color: #95a1c9;
 .questions a{
 color: black;
 text-decoration: none;
-pointer-events: none;
+pointer-events: all;
 }
 
 .dropdown button,
@@ -76,12 +76,4 @@ cursor: pointer;
 opacity: 1;
 pointer-events: all;
 transform: translateY(0px);
-}
-
-.questions li:after{
-    pointer-events: none;
-}
-
-.home {
-    pointer-events: none;
 }
